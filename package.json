@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "next build",
+    "preexport": "npm run build",
+    "export": "next export",
+     "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+    "su": "surge publish ./out --domain https://s0.surge.sh",
+    "start": "serve out",
+    "s": "next build",
+    "v": "vc --prod ./out",
+    "u": "ncu -u && npm update",
+    "t": "nodemon test.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "firebase-firestore-lite": "^1.0.3",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reify": "^0.20.12",
+    "serve": "^11.3.2",
+    "telegra.ph": "^1.0.1",
+    "telegraph.md": "0.0.1"
+  },
+  "name": "xi.now.sh",
+  "version": "1.0.0",
+  "main": "test.js",
+  "module": "main.js"
+}
