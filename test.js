@@ -1,4 +1,4 @@
-nconst Telegraph = require('telegra.ph')
+const Telegraph = require('telegra.ph')
 var token = '50ef68f71a36e25a45ee70c7dabef23afd45610b9c191b02cda33d9828f3'
 const client = new Telegraph(token)
 const md = require('telegraph.md')

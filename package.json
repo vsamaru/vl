@@ -4,7 +4,7 @@
     "build": "next build",
     "preexport": "npm run build",
     "export": "next export",
-     "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
+    "g": "git add . && git commit -m \"first commit\" && git push -u origin main -f",
     "su": "surge publish ./out --domain https://s0.surge.sh",
     "start": "serve out",
     "s": "next build",
@@ -24,7 +24,7 @@
     "telegra.ph": "^1.0.1",
     "telegraph.md": "0.0.1"
   },
-  "name": "xi.now.sh",
+  "name": "vl",
   "version": "1.0.0",
   "main": "test.js",
   "module": "main.js"
