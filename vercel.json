@@ -1,7 +1,0 @@
-{
-  "routes": [	
-  	{ "src": "/(.*)", "methods": ["PUT"], "dest": "/api/PUT?o=$1" },
-  	{ "src": "/(.*)", "methods": ["GET"], "dest": "/api/GET?o=$1" },
-  	{ "src": "/(.*)", "methods": ["POST"], "dest": "/api/POST?o=$1" }
-  ]
-}
